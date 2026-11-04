@@ -8785,5 +8785,34 @@ updateCountLabel(totalCards);
 </script>
 
 
+
+<style id="card-art-css">
+.invo .card-art{margin:.6rem 0 .8rem;border-radius:6px;overflow:hidden;position:relative;background:#14110e;box-shadow:0 2px 10px rgba(0,0,0,.45)}
+.invo .card-art img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.invo .card-art figcaption{position:absolute;right:.4rem;bottom:.3rem;font:600 .62rem/1 Georgia,serif;letter-spacing:.08em;text-transform:uppercase;color:#e8dcc4;background:rgba(20,17,14,.6);padding:.2rem .4rem;border-radius:3px}
+</style>
+<script id="card-art-loader">
+(function(){
+  // Card illustrations: name -> image file. Status "pilot" marks art made before workflow v6's mandatory outside-Krea final.
+  var ART={
+    "Stitchpunk Amalgamation":{src:"art/stitchpunk-amalgamation.webp",status:"pilot"},
+    "Crew Of Drowned Ones":{src:"art/crew-of-drowned-ones.webp",status:"pilot"},
+    "Repelling Magnetism":{src:"art/repelling-magnetism.webp",status:"pilot"},
+    "Puppeteer's Irony":{src:"art/puppeteers-irony.webp",status:"pilot"}
+  };
+  function attach(card){
+    var a=ART[card.getAttribute('data-name')]; if(!a||card.querySelector('.card-art'))return;
+    var head=card.querySelector('.invo-head'); if(!head)return;
+    var f=document.createElement('figure'); f.className='card-art';
+    var i=document.createElement('img'); i.src=a.src; i.loading='lazy'; i.decoding='async';
+    i.alt='Illustration: '+card.getAttribute('data-name'); f.appendChild(i);
+    if(a.status==='pilot'){var c=document.createElement('figcaption');c.textContent='Pilot art';f.appendChild(c);}
+    head.insertAdjacentElement('afterend',f);
+  }
+  function scan(root){(root.querySelectorAll?root:document).querySelectorAll('article.invo[data-name]').forEach(attach);}
+  function start(){scan(document);new MutationObserver(function(ms){ms.forEach(function(m){m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;if(n.matches&&n.matches('article.invo[data-name]'))attach(n);else scan(n);});});}).observe(document.body,{childList:true,subtree:true});}
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start);else start();
+})();
+</script>
 </body>
 </html>
