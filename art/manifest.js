@@ -98,5 +98,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A red-haired dwarf holds a blue yarn ball connected by a single strand to the partially woven hem of her blue coat.",
     "provenance": "outputs/v12-chameleons-wardrobe/chameleons-wardrobe-muse-final.png; accepted Krea rough, Seedream 4, Muse anatomy correction, separate canonical Muse structure and consistency passes.",
     "reviewNotes": "Two hands and complete boots retained. Transformation direction can read as donning or doffing, both allowed by the card. The changing hem may resemble frayed cloth; fine ornament and texture remain denser than the ideal minimalist target."
+  },
+  "Arcane Skin": {
+    "src": "art/arcane-skin.webp",
+    "width": 1600,
+    "height": 1600,
+    "status": "muse-endpoint",
+    "alt": "An older nonbinary aasimar warlock displays luminous Book of Shadows sigils imprinted across their skin as a closed grimoire reappears on the floor.",
+    "provenance": "outputs/v13-arcane-skin/arcane-skin-muse-final.png; accepted Krea rough, Seedream 4, separate Muse structure and consistency passes.",
+    "reviewNotes": "Muse removed rough-stage spectacles and preserved the imprint-to-reappearing-grimoire causal read; minor background parchment remains subordinate."
   }
 };
