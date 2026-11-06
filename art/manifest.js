@@ -44,5 +44,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A rabbit occultist holds an open grimoire as a glossy black ink creature flows beneath an iron gate.",
     "provenance": "outputs/v6/stages/06-muse-consistency.png; Muse overall consistency endpoint. Source preserved.",
     "reviewNotes": "Hand and creature anatomy retain stylized ambiguities; integration does not assert all art defects resolved."
+  },
+  "Bookmark of Knowledge": {
+    "src": "art/bookmark-of-knowledge.webp",
+    "width": 1600,
+    "height": 900,
+    "status": "muse-endpoint",
+    "alt": "A copper dragonborn scholar holds up an empty hand as a green ribbon marks a passage in an open archive book.",
+    "provenance": "outputs/v7/bookmark-of-knowledge-muse-final.png; Krea rough, Seedream, Muse targeted repair, separate Muse Prompt 1 and Prompt 2.",
+    "reviewNotes": "Signature fantasy depicted; teleportation versus ordinary spellcasting cannot be uniquely inferred from one still. Lower boot remains near frame edge."
   }
 };
