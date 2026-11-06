@@ -53,5 +53,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A copper dragonborn scholar holds up an empty hand as a green ribbon marks a passage in an open archive book.",
     "provenance": "outputs/v7/bookmark-of-knowledge-muse-final.png; Krea rough, Seedream, Muse targeted repair, separate Muse Prompt 1 and Prompt 2.",
     "reviewNotes": "Signature fantasy depicted; teleportation versus ordinary spellcasting cannot be uniquely inferred from one still. Lower boot remains near frame edge."
+  },
+  "Infinite Sketchbook": {
+    "src": "art/infinite-sketchbook.webp",
+    "width": 1600,
+    "height": 900,
+    "status": "muse-endpoint",
+    "alt": "An older gnome occultist observes a brass bird statuette while holding open a book with its flat ink depiction.",
+    "provenance": "outputs/v8-infinite-sketchbook/infinite-sketchbook-muse-final.png; Krea rough, Seedream, three Muse corrections, one targeted Gemini fallback, separate final Muse Prompt 1 and Prompt 2.",
+    "reviewNotes": "Depicted bird is recognizable but differs in proportions. Automatic magical recording may read as studying an existing illustration; no perfect-copy claim."
   }
 };
