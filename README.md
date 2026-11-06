@@ -12,4 +12,4 @@ A Homebrew Content For Warlocks
 | [`editions/legacy-2026-06.html`](https://ivangarciafilho.github.io/The-Noosphere/editions/legacy-2026-06.html) | The first published edition (June 2026). |
 | [`variants/`](variants/) | Visual-language experiments: astrolabe, sigil crest, unified HUD, compact codex, radial meters, geometric arcana, visual grammar. |
 
-Every page is a single self-contained HTML file. Open it in a browser; no build step.
+Pages keep their rules, styling, and interaction code in HTML; no build step is required. The current codex also loads `art/manifest.js` and the WebP illustrations in `art/`. Keep that directory beside `index.html` when previewing or publishing. See [`art/README.md`](art/README.md) for adding illustrations and preserving generation provenance.

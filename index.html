@@ -8788,25 +8788,23 @@ updateCountLabel(totalCards);
 
 <style id="card-art-css">
 .invo .card-art{margin:.6rem 0 .8rem;border-radius:6px;overflow:hidden;position:relative;background:#14110e;box-shadow:0 2px 10px rgba(0,0,0,.45)}
-.invo .card-art img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.invo .card-art img{display:block;width:100%;height:auto;object-fit:contain}
 .invo .card-art figcaption{position:absolute;right:.4rem;bottom:.3rem;font:600 .62rem/1 Georgia,serif;letter-spacing:.08em;text-transform:uppercase;color:#e8dcc4;background:rgba(20,17,14,.6);padding:.2rem .4rem;border-radius:3px}
 </style>
+<script src="art/manifest.js"></script>
 <script id="card-art-loader">
 (function(){
-  // Card illustrations: name -> image file. Status "pilot" marks art made before workflow v6's mandatory outside-Krea final.
-  var ART={
-    "Stitchpunk Amalgamation":{src:"art/stitchpunk-amalgamation.webp",status:"final"},
-    "Crew Of Drowned Ones":{src:"art/crew-of-drowned-ones.webp",status:"final"},
-    "Repelling Magnetism":{src:"art/repelling-magnetism.webp",status:"final"},
-    "Puppeteer's Irony":{src:"art/puppeteers-irony.webp",status:"final"},"Oneiric Stalker":{src:"art/oneiric-stalker.webp",status:"final"}
-  };
+  // The external manifest preserves source aspect ratios and records art provenance.
+  var ART=window.NOOSPHERE_CARD_ART || {};
   function attach(card){
     var a=ART[card.getAttribute('data-name')]; if(!a||card.querySelector('.card-art'))return;
     var head=card.querySelector('.invo-head'); if(!head)return;
     var f=document.createElement('figure'); f.className='card-art';
     var i=document.createElement('img'); i.src=a.src; i.loading='lazy'; i.decoding='async';
-    i.alt='Illustration: '+card.getAttribute('data-name'); f.appendChild(i);
-    if(a.status==='pilot'){var c=document.createElement('figcaption');c.textContent='Pilot art';f.appendChild(c);}
+    i.alt=a.alt || 'Illustration for '+card.getAttribute('data-name');
+    if(a.width && a.height){i.width=a.width;i.height=a.height;}
+    i.addEventListener('error',function(){f.remove();},{once:true});
+    f.appendChild(i);
     head.insertAdjacentElement('afterend',f);
   }
   function scan(root){(root.querySelectorAll?root:document).querySelectorAll('article.invo[data-name]').forEach(attach);}
