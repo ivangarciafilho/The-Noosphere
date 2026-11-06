@@ -80,5 +80,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A lilac tiefling occultist stands in a stone courtyard as grimoire pages orbit in front of and behind her body.",
     "provenance": "outputs/v10-disassemble-grimoires-pages/disassemble-grimoires-pages-muse-final.png; rejected first rough, accepted replacement, Seedream 4, targeted Muse correction, separate Muse structure and replacement consistency pass.",
     "reviewNotes": "Orbit and sheltering arrangement retained. Minor scraps and angular rear sheets remain; forward boot crowds the bottom edge and may be slightly cropped. Half Cover and hands-free book use remain in rules text."
+  },
+  "Hellish Heat": {
+    "src": "art/hellish-heat.webp",
+    "width": 1600,
+    "height": 900,
+    "status": "muse-endpoint",
+    "alt": "A bald occultist gestures toward a riveted iron wall, melting a glowing opening that drips liquid metal into a pool below.",
+    "provenance": "outputs/v11-hellish-heat/hellish-heat-muse-final.png; accepted first Krea rough, Seedream 4, one targeted Muse correction, separate canonical Muse structure and consistency passes.",
+    "reviewNotes": "Intentional melting is limited to the targeted breach; surrounding iron remains solid. Fine hatching and surface texture are denser than the ideal minimalist target. Exact affected volume, hit points and upcasting remain in rules text. The dark opening may suggest a fiery portal; the molten rim resembles flame in places."
   }
 };
