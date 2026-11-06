@@ -116,5 +116,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A tortle occultist draws a luminous warding glyph with a brass stylus while presenting a contained spell-seal in a drafting chamber.",
     "provenance": "outputs/v14-arcane-blueprints/arcane-blueprints-muse-final.png; first rough rejected for apparent third arm, bounded replacement accepted, Seedream 4, separate Muse structure and consistency passes.",
     "reviewNotes": "Replacement rough passed the anatomy gate. Final endpoint preserves exactly two arms, two hands, attached shell, full feet and the stylus-to-ward plus contained-seal causal read. Minor glyph lettering remains decorative rather than literal text."
+  },
+  "Arcane Jewel": {
+    "src": "art/arcane-jewel.webp",
+    "width": 1600,
+    "height": 1600,
+    "status": "muse-endpoint",
+    "alt": "A slate-blue genasi occultist energizes a single chest jewel, sending one violet-blue spell stream into a brass conduit and its receiving ward.",
+    "provenance": "outputs/v15-arcane-jewel/arcane-jewel-muse-final.png; accepted Krea rough with bounded duplicate-jewel repair, Seedream 4, separate Muse structure and consistency passes.",
+    "reviewNotes": "Single talisman, single outgoing stream and single receiving ward establish the charge-to-amplification read. Hands, limbs, head and boots pass the artifact gate; a small blue point on the conduit is part of the receiving indicator, not a duplicate jewel."
   }
 };
