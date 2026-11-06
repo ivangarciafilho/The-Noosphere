@@ -62,5 +62,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An older gnome occultist observes a brass bird statuette while holding open a book with its flat ink depiction.",
     "provenance": "outputs/v8-infinite-sketchbook/infinite-sketchbook-muse-final.png; Krea rough, Seedream, three Muse corrections, one targeted Gemini fallback, separate final Muse Prompt 1 and Prompt 2.",
     "reviewNotes": "Depicted bird is recognizable but differs in proportions. Automatic magical recording may read as studying an existing illustration; no perfect-copy claim."
+  },
+  "Bright Jewel": {
+    "src": "art/bright-jewel.webp",
+    "width": 1600,
+    "height": 900,
+    "status": "muse-endpoint",
+    "alt": "A red-skinned hobgoblin occultist lights a dark stone passage with a glowing blue jewel worn on his chest.",
+    "provenance": "outputs/v9-bright-jewel/bright-jewel-muse-final.png; accepted Krea rough, Seedream 4, one targeted Muse lighting repair, separate Muse Prompt 1 structure and Prompt 2 consistency.",
+    "reviewNotes": "Depicts Light from the worn talisman; does not claim to show Daylight or recharge rules. Some dense masonry detail remains beyond the ideal economic-detail target."
   }
 };
