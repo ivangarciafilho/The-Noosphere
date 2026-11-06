@@ -107,5 +107,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An older nonbinary aasimar warlock displays luminous Book of Shadows sigils imprinted across their skin as a closed grimoire reappears on the floor.",
     "provenance": "outputs/v13-arcane-skin/arcane-skin-muse-final.png; accepted Krea rough, Seedream 4, separate Muse structure and consistency passes.",
     "reviewNotes": "Muse removed rough-stage spectacles and preserved the imprint-to-reappearing-grimoire causal read; minor background parchment remains subordinate."
+  },
+  "Arcane Blueprints": {
+    "src": "art/arcane-blueprints.webp",
+    "width": 1600,
+    "height": 1600,
+    "status": "muse-endpoint",
+    "alt": "A tortle occultist draws a luminous warding glyph with a brass stylus while presenting a contained spell-seal in a drafting chamber.",
+    "provenance": "outputs/v14-arcane-blueprints/arcane-blueprints-muse-final.png; first rough rejected for apparent third arm, bounded replacement accepted, Seedream 4, separate Muse structure and consistency passes.",
+    "reviewNotes": "Replacement rough passed the anatomy gate. Final endpoint preserves exactly two arms, two hands, attached shell, full feet and the stylus-to-ward plus contained-seal causal read. Minor glyph lettering remains decorative rather than literal text."
   }
 };
