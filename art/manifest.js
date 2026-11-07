@@ -99,6 +99,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v48-daring-troublemaker/daring-troublemaker-muse-final.png; four Krea rough candidates, first three rejected for duplicate figures or extra hand-like artifacts, fourth accepted; Muse structural repair and consistency prime; movement 25, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads INTERRUPT / INTIMIDATE: one distinct character, a five-finger stop gesture, frozen arrows, and a fractured reaction ring make the mechanic immediately legible. Anatomy and artifact checks pass."
   },
+  "Death Knight's Emissary": {
+    "src": "art/death-knights-emissary.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An ash-skinned teal-armored warlock summons a blue-flamed skeletal warhorse through a necromantic gate.",
+    "provenance": "outputs/v49-death-knights-emissary/death-knights-emissary-muse-final.png; one Krea rough accepted, Muse structural repair and consistency prime; movement 35, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads SUMMON / MOUNT: the warlock and skeletal warhorse are radically distinct, the reins establish their relationship, and the gate makes the familiar transformation unmistakable. Anatomy and artifact checks pass."
+  },
   "Centenary Research": {
     "src": "art/centenary-research.webp",
     "width": 2048,
