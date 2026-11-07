@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Eldritch Lashes": {
+    "src": "art/eldritch-lashes.webp",
+    "width": 3168,
+    "height": 1344,
+    "status": "nano-banana-2.1-endpoint",
+    "alt": "A hobgoblin warlock strikes a nearby elf with a short violet force lash extending from her empty palm into his chest armor.",
+    "provenance": "outputs/v59-eldritch-lashes/gemini-final.png; third of three roughs selected; Nano Banana 2.1 repair, structure and final priming. Five styles 0.30, intensity 50, complexity 0, movement 30, seed 573838; 2.35:1 rough and 21:9 Gemini 2K/high thinking.",
+    "reviewNotes": "Earlier roughs rejected for ambiguous source, shield contact and stray energy. Final has two distinct mutually gazing figures, two arms each, four inspected five-digit hands and one short palm-to-chest arc. No extra strand, physical whip, shield or text. Exact distance and attack classification remain rules text. See v59 review.md."
+  },
   "Eldritch Arsenal": {
     "src": "art/eldritch-arsenal.webp",
     "width": 3168,
