@@ -7,7 +7,7 @@ window.NOOSPHERE_CARD_ART = {
   "status": "muse-endpoint",
   "alt": "A maritime warlock exchanges a direct gaze with a small hovering ice mephit familiar above his offered palm.",
   "provenance": "outputs/v61-elemental-emissary/muse-final.png; Krea rough seed 573841, five styles 0.30, creativity high, intensity 50, complexity 0, movement 25, 2.35:1; Muse targeted repairs, separate structure and consistency passes at 21:9.",
-  "reviewNotes": "SUMMON / BEFRIEND: Marid ice-mephit option. Two distinct figures in mutual gaze. Human has two arms; offered palm shows thumb and four fingers, other hand is closed with curled digits occluded. Two failed six-digit open-hand repairs rejected before changing pose. Mephit has two arms, two legs, wings and one tail. No attack beam, duplicate figures or lettering. Numeric rules remain in card text."
+  "reviewNotes": "SUMMON / BEFRIEND: Marid ice-mephit option. Two distinct figures in mutual gaze. Human has two arms; Previous offered-hand approval invalidated by six digits. Corrected endpoint muse-five-digit-final.png and enlarged crop explicitly show one upward thumb plus four separated leftward fingers after repair, structure and prime. Offered palm shows thumb and four fingers, other hand is closed with curled digits occluded. Two failed six-digit open-hand repairs rejected before changing pose. Mephit has two arms, two legs, wings and one tail. No attack beam, duplicate figures or lettering. Numeric rules remain in card text."
 },
   "Elegant Miniatures": {
     "src": "art/elegant-miniatures.webp",
