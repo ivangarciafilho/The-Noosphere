@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Desperate Plea": {
+    "src": "art/desperate-plea.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "An exhausted tiefling scholar leans over a grimoire, linked by a fine mental thread to an immense alien eye.",
+    "provenance": "outputs/v54-desperate-plea/muse-final.png; one accepted Krea rough, Muse repair, structure pass, focused hand correction, consistency prime. Five styles at 0.30, intensity 50, complexity 0, movement 25, high creativity, seed 573827; 2.35:1 rough and 21:9 Muse.",
+    "reviewNotes": "Book hand corrected to four separately extended fingers plus side thumb; chest fist has natural curled occlusion. Two arms, two horns, one tail and one scholar; mental thread and gaze retained. Page writing replaced with geometric diagrams. Contact and fatigue conveyed; exact action cost and Exhaustion remain card text. See v54 review.md."
+  },
   "Desperate Hibernation": {
     "src": "art/desperate-hibernation.webp",
     "width": 2352,
