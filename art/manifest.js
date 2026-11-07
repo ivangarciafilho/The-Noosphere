@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Emergency Door": {
+  "src": "art/emergency-door.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "An orc occult painter finishes a luminous turquoise door drawing on intact alley brickwork, wearing an ornate mustard and violet coat.",
+  "provenance": "outputs/v63-emergency-door/final.png; first Krea rough selected, two targeted Muse edits remove physical knob, separate structure and consistency passes. Five styles .30, high creativity, intensity50, detail0, movement30, seed573843; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "DRAW / PREPARE: one painter applies one continuous brush to a flat door outline on solid masonry. Physical knob rejected and removed. One head, two arms and legs; brush and rag grips inspected in enlarged structure/final crops, curled digits partly occluded by props. No open portal, real hardware, duplicate figure or text. Second location, ten-minute preparation, range and consumption remain rules text."
+},
   "Embrace the Raging Baboon": {
   "src": "art/embrace-the-raging-baboon.webp",
   "width": 2352,
