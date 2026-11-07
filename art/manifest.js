@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Dramatic Entrance": {
+    "src": "art/dramatic-entrance.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "A violet-and-ivory tabaxi performer sweeps through an open doorway as a startled dwarf guard recoils with his sword stopped aloft.",
+    "provenance": "outputs/v55-dramatic-entrance/muse-final.png; one accepted rough, Muse restraint-cue removal, separate structure and consistency passes; five styles 0.30, high creativity, intensity 50, complexity 0, movement 40, seed 573828; Krea 2.35:1, Muse 21:9.",
+    "reviewNotes": "Two distinct mutually gazing figures; entering cape and recoil carry ENTER / STARTLE. Removed red wrist rings to avoid restraint interpretation. Final hands, two arms each, single mask and sword inspected; closed grips include plausible occlusion. No duplicate figure or text. Exact reaction timing remains rules text. See v55 review.md."
+  },
   "Desperate Plea": {
     "src": "art/desperate-plea.webp",
     "width": 2352,
