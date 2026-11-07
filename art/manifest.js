@@ -108,6 +108,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v32-circle-aristocratic-occultists/circle-aristocratic-occultists-muse-final.png; two Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is refine: tool mastery transforms humble craft into aristocratic occult couture. No text, duplicate figures, or ambiguous magical action."
   },
+  "Collective Betrayal": {
+    "src": "art/collective-betrayal.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock's violet psychic spell turns two nearby armored enemies against one another.",
+    "provenance": "outputs/v33-collective-betrayal/collective-betrayal-muse-final.png; Krea rough, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is incite: one casting creates a single linked conflict between exactly two targets. Anatomy and target count were audited before publication."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
