@@ -152,5 +152,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A tiefling occultist directs four detached spectral hands toward four separate targets in a ruined observatory.",
     "provenance": "outputs/v18-aspect-of-shiva/aspect-of-shiva-muse-final.png; accepted horizontal Krea rough with movement 50, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
     "reviewNotes": "Landscape framing gives the multi-hand action room to read. Anatomy gate passed: biological caster has two arms and two hands with separated digits, full feet, while four spectral hands remain visibly detached constructs with distinct trajectories and targets."
+  },
+  "Audited Execution": {
+    "src": "art/audited-execution.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An elven occult adjudicator authorizes a dwarf ally's single d20 roll as it becomes a radiant success seal.",
+    "provenance": "outputs/v19-audited-execution/audited-execution-muse-final.png; first two roughs rejected for duplicate dice, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
+    "reviewNotes": "One intact d20 is the sole mechanical object and the 20 face remains part of the die, not pseudo-text. Two complete adult characters pass the anatomy gate with two arms and two hands each; the causal read is caster reaction authorizing allied success."
   }
 };
