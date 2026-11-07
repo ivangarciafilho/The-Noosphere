@@ -315,7 +315,7 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v40-corpse-butchery/corpse-butchery-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads DISMEMBER / HARVEST through one essence stream and one vessel. The imagery stays symbolic and non-graphic, with one occultist, one inert body, correct hands, and no text or duplicate props."
   },
-  "Corpse Devourers' Cohort": {
+  "Corpse Devourers Cohort": {
     "src": "art/corpse-devourers-cohort.webp",
     "width": 2048,
     "height": 1152,
