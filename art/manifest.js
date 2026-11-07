@@ -287,5 +287,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A warlock resists a sentient eye-like gemstone talisman as translucent emotion waves communicate through the ruined observatory.",
     "provenance": "outputs/v37-conscious-talisman/conscious-talisman-muse-final.png; rough 1 rejected for speech bubbles and duplicate gems, rough 2 accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads AWAKEN / INFLUENCE: one central talisman communicates emotion while testing control, and the wearer visibly resists. Exactly one character, one talisman, two arms and two hands pass the artifact gate; no text or duplicate gemstones remain."
+  },
+  "Coordinated Minds": {
+    "src": "art/coordinated-minds.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "Two warlocks move in mirrored defensive poses while one luminous psychic thread links their minds in a ruined library.",
+    "provenance": "outputs/v38-coordinated-minds/coordinated-minds-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads LINK / SYNCHRONIZE: two distinct warlocks share one psychic bridge and mirrored motion. Two arms and hands per figure, separated fingers, no duplicate bodies or pseudo-text pass the artifact gate."
   }
 };
