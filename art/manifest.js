@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Flesh-Stitching Artist": {
+  "src": "art/flesh-stitching-artist.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "An orc occult healer stitches the forearm of a willing human adventurer while supporting her wrist during a quiet rest.",
+  "provenance": "outputs/v72-flesh-stitching-artist/final.png; Krea seed573854, five styles .30, high creativity, intensity50, detail0, movement25, 2.35:1; Muse tool/signature repair, separate structure and consistency,21:9.",
+  "reviewNotes": "STITCH / MEND: non-graphic wound-care branch, distinct adults in mutual gaze. Two arms each; four hands traced in enlarged crops, supporting thumb above/four fingers below wrist. Oversized tool and signature removed. Seated lower legs cropped/occluded, not claimed visible. Reattachment/self-replacement, kit use and rest trigger remain rules text."
+},
   "Firefighter's Codex": {
   "src": "art/firefighters-codex.webp",
   "width": 2352,
