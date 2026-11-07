@@ -7,7 +7,7 @@ window.NOOSPHERE_CARD_ART = {
     "status": "muse-endpoint",
     "alt": "An ivory-and-burgundy turtlefolk occultist directs a golden wand spell into the purple chest curse of a recoiling armored human.",
     "provenance": "outputs/v51-demanding-precision/muse-final.png; fifth of five roughs selected; five LoRAs at 0.30, complexity 0, intensity 50, high creativity, movement 30, seed 573816; Krea 2.35:1, Muse 21:9 structure then consistency. Seedream skipped per user.",
-    "reviewNotes": "Roughs 1 and 4 rejected for wrong beam source; 2 for third arm; 3 for duplicate target and extra hand. Fifth accepted. Structure pass introduced shield-like disc; consistency restored a flat curse brand and damaging impact. Final reviewed at native resolution: two distinct mutually oriented figures, two arms each, closed grips with plausible occlusion, no exposed fused fingers or readable text. Art conveys curse-amplified radiant damage; exact roll thresholds and multiplier remain rules text."
+    "reviewNotes": "Roughs 1 and 4 rejected for wrong beam source; 2 for third arm; 3 for duplicate target and extra hand. Fifth accepted. Structure pass introduced shield-like disc; consistency restored a flat curse brand and damaging impact. Previous grip approval superseded: Muse hand repair plus separate structure and consistency passes redrew four fingers and thumb on resting hand and defined curled digits on wand grip. Corrected endpoint outputs/v51-demanding-precision/muse-hands-corrected-final.png. Art conveys curse-amplified radiant damage; exact roll thresholds and multiplier remain rules text."
   },
   "Stitchpunk Amalgamation": {
     "src": "art/stitchpunk-amalgamation.webp",
