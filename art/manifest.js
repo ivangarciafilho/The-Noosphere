@@ -161,5 +161,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An elven occult adjudicator authorizes a dwarf ally's single d20 roll as it becomes a radiant success seal.",
     "provenance": "outputs/v19-audited-execution/audited-execution-muse-final.png; first two roughs rejected for duplicate dice, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
     "reviewNotes": "One intact d20 is the sole mechanical object and the 20 face remains part of the die, not pseudo-text. Two complete adult characters pass the anatomy gate with two arms and two hands each; the causal read is caster reaction authorizing allied success."
+  },
+  "Aura of Superiority": {
+    "src": "art/aura-of-superiority.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An aasimar warlock projects a dominance aura that leaves a charmed noble and frightened ogre unable to react.",
+    "provenance": "outputs/v20-aura-of-superiority/aura-of-superiority-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
+    "reviewNotes": "The aura boundary, restrained targets and caster gesture establish DOMINATE / SILENCE. Three complete adult characters pass the anatomy gate with two arms and two hands each; one staff is the only hard prop."
   }
 };
