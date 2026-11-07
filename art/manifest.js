@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Drowned Castaway's Gift": {
+    "src": "art/drowned-castaways-gift.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "A sea-orc navigator braces on a storm-tossed deck, perceiving a turquoise lighthouse outline through persistent rain and fog.",
+    "provenance": "outputs/v56-drowned-castaways-gift/muse-final.png; third rough accepted, Muse duplicate removal, structure and consistency passes. Five styles 0.30, high creativity, intensity 50, complexity 0, movement 25, seed 573831; 2.35:1 rough, 21:9 Muse.",
+    "reviewNotes": "Rejected fog-clearing cone and portal-like arch. Final shows one navigator, one compass, one worn shell, and one lighthouse contour behind unchanged fog. Two arms and both grips reviewed with object occlusion noted. Structure's solid tower corrected by final prime. Exact Survival and Perception benefits remain rules text. See v56 review.md."
+  },
   "Dramatic Entrance": {
     "src": "art/dramatic-entrance.webp",
     "width": 2352,
