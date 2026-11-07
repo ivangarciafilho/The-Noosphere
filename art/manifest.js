@@ -115,7 +115,7 @@ window.NOOSPHERE_CARD_ART = {
     "status": "muse-endpoint",
     "alt": "An amber-skinned blue-armored warlock twists away as a translucent glass afterimage takes the impact of a broken spear.",
     "provenance": "outputs/v50-deceiving-decoy/deceiving-decoy-muse-final.png; one Krea rough accepted, Muse structural repair and two-pass consistency prime to remove lettering; movement 40, landscape 16:9, complexity 0.",
-    "reviewNotes": "The final frame reads MISDIRECT / VANISH: the real warlock and visibly spectral frozen decoy are distinct, the impact explains the trigger, and no readable text remains. Anatomy and artifact checks pass."
+    "reviewNotes": "2026-11-07 correction: prior endpoint had missing/fused digits and its anatomy approval was invalid. Targeted Muse repair followed by separate structure and consistency passes restored four fingers plus thumb on both real hands. Inspected the final at native resolution; glass afterimage hands remain separate. No lettering. Corrected source: outputs/v50-deceiving-decoy/deceiving-decoy-muse-final-v2.png."
   },
   "Centenary Research": {
     "src": "art/centenary-research.webp",
