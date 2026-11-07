@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Egos Switch": {
+    "src": "art/egos-switch.webp",
+    "width": 3168,
+    "height": 1344,
+    "status": "nano-banana-2.1-endpoint",
+    "alt": "A hyenafolk investigator suppresses a red theatrical mask against his thigh while inspecting a muddy footprint with a magnifying glass.",
+    "provenance": "outputs/v57-egos-switch/nano-banana-21-final.png; second returned rough accepted after one rejected and one timeout; Nano Banana 2.1 targeted repair, structure and final consistency at 2K/high thinking/21:9. Krea five styles 0.30, intensity 50, complexity 0, movement 25, seed 573834.",
+    "reviewNotes": "Study/Search branch depicted. One real figure, two arms, one mask, one lens and footprint retained. Mask hand four fingers visible with thumb partly occluded at rim; lens grip naturally closed. No second head or letters. Provider trial only, no established cost/quality superiority. See v57 review.md."
+  },
   "Drowned Castaway's Gift": {
     "src": "art/drowned-castaways-gift.webp",
     "width": 2352,
