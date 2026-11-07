@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Erase From Mind's Eye": {
+  "src": "art/erase-from-minds-eye.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A solid tiefling occultist faces a bewildered minotaur while his image dissolves into blank space within a smoky blue memory vignette.",
+  "provenance": "outputs/v67-erase-from-minds-eye/final2.png; first Krea rough selected, Muse punctuation/memory/hand repair, repeated structure after panel regression, repeated consistency after unrelated face regression. Five styles .30, high creativity, intensity50, detail0, movement30, seed573847; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "FORGET / ERASE: real caster remains solid, memory image dissolves. Two distinct real characters in mutual gaze; memory silhouette explicitly nonphysical exception. Two arms each, cane grip and three fists inspected in crops; curled hidden digits not claimed visible. Question marks removed; glass panel and unrelated horned face versions rejected. Exact spell conditions and affected interval remain rules text."
+},
   "Aggressive Reduction": {
   "src": "art/aggressive-reduction.webp",
   "width": 2048,
