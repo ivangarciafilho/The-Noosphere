@@ -81,6 +81,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v29-cenobites-mantle/cenobites-mantle-muse-final.png; three Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is retaliate: Sanctuary blocks the attack while a single radiant needle counterstrike blooms through the failed attacker. No text, duplicate entities, or competing magical sources."
   },
+  "Centenary Research": {
+    "src": "art/centenary-research.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A dragonborn scholar absorbs a rainbow stream of knowledge into a single Book of Shadows in a dark archive.",
+    "provenance": "outputs/v30-centenary-research/centenary-research-muse-final.png; three Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is absorb: a single abstract codex imprint transfers borrowed knowledge into the Book of Shadows. No readable text or duplicate characters."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
