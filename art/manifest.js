@@ -117,6 +117,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v33-collective-betrayal/collective-betrayal-muse-final.png; Krea rough, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is incite: one casting creates a single linked conflict between exactly two targets. Anatomy and target count were audited before publication."
   },
+  "Collide Egos": {
+    "src": "art/collide-egos.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock drives a violet psychic spike through an armored enemy's fractured mental shield.",
+    "provenance": "outputs/v34-collide-egos/collide-egos-muse-final.png; Krea rough, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is amplify/penetrate: a psychic spell remains effective through resistance, with the hit-die pulse shown at the caster's chest. Anatomy and prop counts were audited."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
