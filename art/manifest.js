@@ -197,5 +197,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A tome warlock flies through a narrow stone opening as one body unravels into a continuous stream of paper sheets.",
     "provenance": "outputs/v24-bi-dimensional-escape/bi-dimensional-escape-muse-final.png; first rough rejected for duplicate body, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
     "reviewNotes": "The final frame reads UNFOLD / FLY THROUGH: one body becomes paper and passes through one stone opening. One Book of Shadows remains the source prop; anatomy and paper geometry pass the artifact gate."
+  },
+  "Body Jewelry": {
+    "src": "art/body-jewelry.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A horned warlock wears one implanted talisman as black-and-gold armor crystallizes outward across the body.",
+    "provenance": "outputs/v25-body-jewelry/body-jewelry-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
+    "reviewNotes": "The implanted talisman is the single source object and the armor visibly hardens outward from it. Complete body, two arms, two hands, separated digits and feet pass the artifact gate; no rival jewelry remains."
   }
 };
