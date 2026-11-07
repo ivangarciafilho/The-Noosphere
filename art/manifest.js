@@ -72,6 +72,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v9-bright-jewel/bright-jewel-muse-final.png; accepted Krea rough, Seedream 4, one targeted Muse lighting repair, separate Muse Prompt 1 structure and Prompt 2 consistency.",
     "reviewNotes": "Depicts Light from the worn talisman; does not claim to show Daylight or recharge rules. Some dense masonry detail remains beyond the ideal economic-detail target."
   },
+  "Cenobite's Mantle": {
+    "src": "art/cenobites-mantle.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock stands inside a translucent golden sanctuary mantle as a recoiling attacker is pierced by clean radiant golden needles.",
+    "provenance": "outputs/v29-cenobites-mantle/cenobites-mantle-muse-final.png; three Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is retaliate: Sanctuary blocks the attack while a single radiant needle counterstrike blooms through the failed attacker. No text, duplicate entities, or competing magical sources."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
