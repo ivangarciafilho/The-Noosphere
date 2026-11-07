@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Desperate Hibernation": {
+    "src": "art/desperate-hibernation.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "A mothfolk occultist lies in a deathlike trance as incoming frost breaks into powder against a close-fitting gray magical veil.",
+    "provenance": "outputs/v53-desperate-hibernation/muse-final.png; third of three roughs accepted, targeted Muse repair followed by separate structure and consistency passes. Five LoRAs at 0.30, high creativity, intensity 50, complexity 0, movement 25, seed 573826; Krea 2.35:1, Muse 21:9.",
+    "reviewNotes": "First two roughs rejected for active casting and departing-ghost implications. Final preserves one grounded passive figure, closed eyes, two arms, separately inspected five-digit hands and external frost impact. No extra figure or text. Exact reaction timing and resistance remain rules text. See v53 review.md."
+  },
   "Demogorgon's Favoured Weapon": {
     "src": "art/demogorgons-favoured-weapon.webp",
     "width": 2352,
