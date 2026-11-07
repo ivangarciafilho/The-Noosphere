@@ -134,5 +134,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A kenku archivist touches an unfurled spell scroll as unreadable script becomes a luminous intelligible glyph above it.",
     "provenance": "outputs/v16-archivists-insight/archivists-insight-muse-final.png; targeted Muse anatomy correction after release review; Seedream intentionally skipped per shortened-path run.",
     "reviewNotes": "Corrected endpoint now shows exactly two arms and two hands with separated clawed digits, complete feet, stable scroll geometry, and the scroll-to-translated-glyph narrative. Decorative glyphs are intentionally nonliteral."
+  },
+  "Artistic Obsession": {
+    "src": "art/artistic-obsession.webp",
+    "width": 1600,
+    "height": 1600,
+    "status": "muse-endpoint",
+    "alt": "An albino changeling witch pours a pale thread of vitality into a black violin while a broom levitates beside her.",
+    "provenance": "outputs/v17-artistic-obsession/artistic-obsession-muse-final.png; accepted Krea rough, Muse structural repair, Muse consistency prime; Seedream intentionally skipped per shortened-path run.",
+    "reviewNotes": "The visual verb is a practiced artisan converting one spent Hit Point Die into a single instrument performance. Anatomy gate passed: one body, two arms, two hands, readable separated digits, complete feet, one violin, one bow, and one broom. No text or labels."
   }
 };
