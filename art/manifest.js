@@ -108,6 +108,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v49-death-knights-emissary/death-knights-emissary-muse-final.png; one Krea rough accepted, Muse structural repair and consistency prime; movement 35, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads SUMMON / MOUNT: the warlock and skeletal warhorse are radically distinct, the reins establish their relationship, and the gate makes the familiar transformation unmistakable. Anatomy and artifact checks pass."
   },
+  "Deceiving Decoy": {
+    "src": "art/deceiving-decoy.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An amber-skinned blue-armored warlock twists away as a translucent glass afterimage takes the impact of a broken spear.",
+    "provenance": "outputs/v50-deceiving-decoy/deceiving-decoy-muse-final.png; one Krea rough accepted, Muse structural repair and two-pass consistency prime to remove lettering; movement 40, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads MISDIRECT / VANISH: the real warlock and visibly spectral frozen decoy are distinct, the impact explains the trigger, and no readable text remains. Anatomy and artifact checks pass."
+  },
   "Centenary Research": {
     "src": "art/centenary-research.webp",
     "width": 2048,
