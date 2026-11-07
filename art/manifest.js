@@ -81,6 +81,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v29-cenobites-mantle/cenobites-mantle-muse-final.png; three Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is retaliate: Sanctuary blocks the attack while a single radiant needle counterstrike blooms through the failed attacker. No text, duplicate entities, or competing magical sources."
   },
+  "Cursed Deathmatch": {
+    "src": "art/cursed-deathmatch.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A violet tentacled warlock and a gold-armored red-plumed knight lock eyes in a cursed duel as a crimson compulsion chain binds their stances.",
+    "provenance": "outputs/v47-cursed-deathmatch/cursed-deathmatch-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads CHALLENGE / LOCK: diametrically distinct designs, direct eye contact, and one binding chain make the compelled duel unmistakable. Anatomy and artifact checks pass."
+  },
   "Centenary Research": {
     "src": "art/centenary-research.webp",
     "width": 2048,
