@@ -305,5 +305,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A warlock projects a transparent geometric mental prison that seals a panicked prey creature inside while exhaustion drains the caster.",
     "provenance": "outputs/v39-cornering-the-prey/cornering-the-prey-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads CORNER / IMPRISON: one coherent cage closes every escape route around one prey while the caster visibly pays an exhaustion cost. Two figures, correct limbs and no text or duplicate cages pass the artifact gate."
+  },
+  "Corpse Butchery": {
+    "src": "art/corpse-butchery.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An occultist draws luminous essence from an inert humanoid body into a sealed vessel in a shadowed crypt.",
+    "provenance": "outputs/v40-corpse-butchery/corpse-butchery-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads DISMEMBER / HARVEST through one essence stream and one vessel. The imagery stays symbolic and non-graphic, with one occultist, one inert body, correct hands, and no text or duplicate props."
   }
 };
