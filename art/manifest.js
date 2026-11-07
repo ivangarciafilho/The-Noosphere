@@ -143,5 +143,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An albino changeling witch pours a pale thread of vitality into a black violin while a broom levitates beside her.",
     "provenance": "outputs/v17-artistic-obsession/artistic-obsession-muse-final.png; accepted Krea rough, Muse structural repair, Muse consistency prime; Seedream intentionally skipped per shortened-path run.",
     "reviewNotes": "The visual verb is a practiced artisan converting one spent Hit Point Die into a single instrument performance. Anatomy gate passed: one body, two arms, two hands, readable separated digits, complete feet, one violin, one bow, and one broom. No text or labels."
+  },
+  "Aspect Of Shiva": {
+    "src": "art/aspect-of-shiva.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A tiefling occultist directs four detached spectral hands toward four separate targets in a ruined observatory.",
+    "provenance": "outputs/v18-aspect-of-shiva/aspect-of-shiva-muse-final.png; accepted horizontal Krea rough with movement 50, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
+    "reviewNotes": "Landscape framing gives the multi-hand action room to read. Anatomy gate passed: biological caster has two arms and two hands with separated digits, full feet, while four spectral hands remain visibly detached constructs with distinct trajectories and targets."
   }
 };
