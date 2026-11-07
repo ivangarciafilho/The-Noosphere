@@ -126,6 +126,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v34-collide-egos/collide-egos-muse-final.png; Krea rough, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is amplify/penetrate: a psychic spell remains effective through resistance, with the hit-die pulse shown at the caster's chest. Anatomy and prop counts were audited."
   },
+  "Colosseum's Champion": {
+    "src": "art/colosseums-champion.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock champion transfers a glowing duel tether from a fallen opponent to a new hostile target in a ruined colosseum.",
+    "provenance": "outputs/v35-colosseums-champion/colosseums-champion-muse-final.png; Krea rough, Muse structure repair, critical extra-arm correction, and final Muse consistency pass.",
+    "reviewNotes": "The visual verb is transfer: Compelled Duel moves from the defeated target to a new hostile target. Three figures are staged and anatomy was audited before publication."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
