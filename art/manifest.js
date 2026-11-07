@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Graceful Spellblade": {
+  "src": "art/graceful-spellblade.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A harefolk occult duelist sprints through a chapel with a turquoise protective ward, swept-back ears and a sheathed sword.",
+  "provenance": "outputs/v77-graceful-spellblade/final.png; second of two Krea roughs selected, Muse structure, ear framing repair and separate consistency. Five styles .30, high creativity, intensity50, detail0, movement30, seed573862; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "DASH WHILE WARDED: one adult harefolk, two arms, two legs and boots, no duplicated motion figures. Enlarged fist and pelvis-to-feet reviews saved. Curled hidden digits not claimed individually visible. Both ear tips within frame; sword sheathed. Exact triggers and Performance-dependent Disengage benefits remain rules text."
+},
   "Golden Fingertips": {
   "src": "art/golden-fingertips.webp",
   "width": 2352,
