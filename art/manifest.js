@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Explorer's Mapfolio": {
+  "src": "art/explorers-mapfolio.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A gnome occult explorer carries an open Book of Shadows whose page displays a turquoise route through a maze toward a key-shaped destination.",
+  "provenance": "outputs/v68-explorers-mapfolio/final.png; first Krea rough selected, Muse text/icon repair, structure, focused grip correction and consistency. Five styles .30, high creativity, intensity50, detail0, movement30, seed573848; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "LOCATE / NAVIGATE: one explorer, one continuous book with map on right page, route contained on parchment and flat target symbol. Two arms/two legs; book grips inspected in enlarged crop, near thumb exposed with curled fingers occluded behind cover. Physical key, lettering and ambiguous splayed digits removed. Exact rest trigger, spell duration and Survival bonus remain rules text."
+},
   "Erase From Mind's Eye": {
   "src": "art/erase-from-minds-eye.webp",
   "width": 2352,
