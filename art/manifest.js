@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Gaoler's Tomb": {
+  "src": "art/gaolers-tomb.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A lizardfolk occult gaoler remains inside an intact amber magic circle while violet unraveling fragments fade outside its boundary.",
+  "provenance": "outputs/v75-gaolers-tomb/final.png; first Krea rough selected, Muse lettering/shield-disk repair, separate structure and consistency. Five styles .30, high creativity, intensity50, detail0, movement25, seed573859; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "REMAIN / ENDURE: one caster fully within continuous circle, violet residue outside. Two arms/two book grips, two legs/two reptilian feet and one tail inspected with crops; curled digits partly occluded. Separate shield disk and lettering removed. Exact nondispellability, remains clause and slot trigger remain rules text."
+},
   "Foul-Mouthed Bully": {
   "src": "art/foul-mouthed-bully.webp",
   "width": 2352,
