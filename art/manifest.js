@@ -323,5 +323,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A necromancer directs three shadow creatures emerging from one grave toward an inert corpse beneath a moonlit ossuary.",
     "provenance": "outputs/v41-corpse-devourers-cohort/corpse-devourers-cohort-muse-final.png; one Krea rough accepted after Muse reduced four creatures to three and removed tombstone text; Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads CONSUME / MULTIPLY: one leader commands exactly three creatures from one grave toward one corpse. No pseudo-text, duplicate figures, or anatomy artifacts remain."
+  },
+  "Corpse Scavenger": {
+    "src": "art/corpse-scavenger.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock embeds a luminous talisman into the chest of a newly raised undead servant, linked by a thin control thread.",
+    "provenance": "outputs/v42-corpse-scavenger/corpse-scavenger-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads EMBED / RAISE: one talisman becomes the undead servant's anchor and control returns to the caster. Two figures, correct hands, no text or duplicate bodies pass the artifact gate."
   }
 };
