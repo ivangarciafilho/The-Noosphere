@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Demogorgon's Favoured Weapon": {
+    "src": "art/demogorgons-favoured-weapon.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "An indigo-and-bronze armored minotaur holds two pact whips, each tracing a separate continuous curve to a tapered tip.",
+    "provenance": "outputs/v52-demogorgons-favoured-weapon/muse-final.png; fifth rough selected; targeted Muse grip and tip repair, separate structure and consistency passes. Five LoRAs at 0.30, intensity 50, complexity 0, high creativity, movement 25, seed 573823; Krea 2.35:1 and Muse 21:9.",
+    "reviewNotes": "Continuity audit traced each hand to one handle, one cord and one tapered free tip. One figure, two arms, repaired curled grips with partial occlusion, two horns and two independent whip paths. Prior candidates rejected for spectators, hook fittings, disconnected strands or a duplicated minotaur. See v52 review.md for stage evidence."
+  },
   "Demanding Precision": {
     "src": "art/demanding-precision.webp",
     "width": 2352,
