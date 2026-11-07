@@ -108,7 +108,7 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v57-egos-switch/nano-banana-21-final.png; second returned rough accepted after one rejected and one timeout; Nano Banana 2.1 targeted repair, structure and final consistency at 2K/high thinking/21:9. Krea five styles 0.30, intensity 50, complexity 0, movement 25, seed 573834.",
     "reviewNotes": "Study/Search branch depicted. One real figure, two arms, one mask, one lens and footprint retained. Mask hand four fingers visible with thumb partly occluded at rim; lens grip naturally closed. No second head or letters. Provider trial only, no established cost/quality superiority. See v57 review.md."
   },
-  "Drowned Castaway's Gift": {
+  "Castaway's Gift": {
     "src": "art/drowned-castaways-gift.webp",
     "width": 2352,
     "height": 1008,
@@ -423,7 +423,7 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v19-audited-execution/audited-execution-muse-final.png; first two roughs rejected for duplicate dice, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
     "reviewNotes": "One intact d20 is the sole mechanical object and the 20 face remains part of the die, not pseudo-text. Two complete adult characters pass the anatomy gate with two arms and two hands each; the causal read is caster reaction authorizing allied success."
   },
-  "Aura of Superiority": {
+  "Demanding Superiority": {
     "src": "art/aura-of-superiority.webp",
     "width": 2048,
     "height": 1152,
