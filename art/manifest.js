@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Eldritch Arsenal": {
+    "src": "art/eldritch-arsenal.webp",
+    "width": 3168,
+    "height": 1344,
+    "status": "nano-banana-2.1-endpoint",
+    "alt": "A silver dragonborn occultist summons a single animated flying sword familiar, hovering independently in a golden spirit aura.",
+    "provenance": "outputs/v58-eldritch-arsenal-leonardo/gemini-final.png; Leonardo attempt blocked, user-authorized Krea rough plus Nano Banana 2.1 repair, structure and consistency; five styles 0.30, high creativity, intensity 50, complexity 0, movement 30, seed 573835; 2.35:1 rough and 21:9 2K Gemini.",
+    "reviewNotes": "One accepted rough. Face-like aura removed; both open hands inspected for four fingers plus thumb. One figure, two arms, one tail and one coherent sword separated from hands, hovering above own shadow. No extra creature or attack tether. Duration and stat block remain rules text. See v58 completed-review.md."
+  },
   "Egos Switch": {
     "src": "art/egos-switch.webp",
     "width": 3168,
