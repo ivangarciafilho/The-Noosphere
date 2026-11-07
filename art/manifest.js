@@ -269,5 +269,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A horned warlock wears one implanted talisman as black-and-gold armor crystallizes outward across the body.",
     "provenance": "outputs/v25-body-jewelry/body-jewelry-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
     "reviewNotes": "The implanted talisman is the single source object and the armor visibly hardens outward from it. Complete body, two arms, two hands, separated digits and feet pass the artifact gate; no rival jewelry remains."
+  },
+  "Confuse Thoughts": {
+    "src": "art/confuse-thoughts.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A foreground warlock interrupts an enemy mage's spell as the turquoise counterspell shatters and violet psychic recoil coils around the mage's head.",
+    "provenance": "outputs/v36-confuse-thoughts/confuse-thoughts-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads INTERRUPT / REBOUND: one caster breaks one spell and the psychic backlash reaches the enemy. Exactly two figures, two arms each, visible hands with separated fingers, no duplicate props or text pass the artifact gate."
   }
 };
