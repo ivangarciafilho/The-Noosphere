@@ -332,5 +332,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A warlock embeds a luminous talisman into the chest of a newly raised undead servant, linked by a thin control thread.",
     "provenance": "outputs/v42-corpse-scavenger/corpse-scavenger-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads EMBED / RAISE: one talisman becomes the undead servant's anchor and control returns to the caster. Two figures, correct hands, no text or duplicate bodies pass the artifact gate."
+  },
+  "Cosmos Explorer": {
+    "src": "art/cosmos-explorer.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An exhausted warlock strides through a vertical portal between a haunted ocean and an alien star desert along a luminous cosmic route.",
+    "provenance": "outputs/v43-cosmos-explorer/cosmos-explorer-muse-final.png; rough 1 rejected for route lettering, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads TRAVERSE / MAP: one explorer crosses one portal between two distinct planes along a text-free cosmic route. Anatomy and portal geometry pass the artifact gate."
   }
 };
