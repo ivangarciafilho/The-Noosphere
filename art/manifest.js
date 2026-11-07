@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Aggressive Reduction": {
+  "src": "art/aggressive-reduction.webp",
+  "width": 2048,
+  "height": 1152,
+  "status": "muse-endpoint",
+  "alt": "A verdigris dragonborn tyrant in an oxblood frock coat strikes a kneeling palace guard with a thin violet sting, forcing him to bow in supplication before her throne.",
+  "provenance": "runs/aggressive-reduction-v13/final.png; Krea 2 Large rough seed2061, five styles .30, high creativity, intensity50, complexity-25, movement40, 16:9; Seedream 4 pass (pre-v12 path); Muse repairs: supplication posture, beam contact sigil (one moderation rewording); Muse Prompt 1 structure; Muse Prompt 2 final. Style block on every call.",
+  "reviewNotes": "STING -> KNEEL. P1 guard kneels bowed, palms up, facing the caster; P2 thin violet beam ends in a sigil circle on his back; P3 throne, torn banners, courtier shadows, dropped halberd. Hand crops: guard front hand four fingers and thumb, back hand partly occluded and plausible; dragonborn claws are species anatomy. No blood. Piercing damage option and the posture's lack of further effect remain rules text."
+},
   "Epitaph": {
   "src": "art/epitaph.webp",
   "width": 2352,
