@@ -188,5 +188,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A laughing satyr warlock bends one knight's spear aside with a silver barb as psychic recoil strikes the missed attacker.",
     "provenance": "outputs/v22-baffling-cackle/baffling-cackle-muse-final.png; first rough rejected for duplicate attackers, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
     "reviewNotes": "One continuous spear, one silver barb, one miss and one restrained psychic rebound establish DERAIL / REBOUND. Two complete adult characters pass the anatomy gate with two arms and two hands each; no duplicate weapons remain."
+  },
+  "Bi-Dimensional Escape": {
+    "src": "art/bi-dimensional-escape.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A tome warlock flies through a narrow stone opening as one body unravels into a continuous stream of paper sheets.",
+    "provenance": "outputs/v24-bi-dimensional-escape/bi-dimensional-escape-muse-final.png; first rough rejected for duplicate body, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
+    "reviewNotes": "The final frame reads UNFOLD / FLY THROUGH: one body becomes paper and passes through one stone opening. One Book of Shadows remains the source prop; anatomy and paper geometry pass the artifact gate."
   }
 };
