@@ -333,7 +333,7 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v42-corpse-scavenger/corpse-scavenger-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads EMBED / RAISE: one talisman becomes the undead servant's anchor and control returns to the caster. Two figures, correct hands, no text or duplicate bodies pass the artifact gate."
   },
-  "Cosmos Explorer": {
+  "Cosmos": {
     "src": "art/cosmos-explorer.webp",
     "width": 2048,
     "height": 1152,
