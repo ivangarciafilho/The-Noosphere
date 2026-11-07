@@ -278,5 +278,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A foreground warlock interrupts an enemy mage's spell as the turquoise counterspell shatters and violet psychic recoil coils around the mage's head.",
     "provenance": "outputs/v36-confuse-thoughts/confuse-thoughts-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads INTERRUPT / REBOUND: one caster breaks one spell and the psychic backlash reaches the enemy. Exactly two figures, two arms each, visible hands with separated fingers, no duplicate props or text pass the artifact gate."
+  },
+  "Conscious Talisman": {
+    "src": "art/conscious-talisman.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock resists a sentient eye-like gemstone talisman as translucent emotion waves communicate through the ruined observatory.",
+    "provenance": "outputs/v37-conscious-talisman/conscious-talisman-muse-final.png; rough 1 rejected for speech bubbles and duplicate gems, rough 2 accepted, Muse structural repair and Muse consistency prime; movement 40, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads AWAKEN / INFLUENCE: one central talisman communicates emotion while testing control, and the wearer visibly resists. Exactly one character, one talisman, two arms and two hands pass the artifact gate; no text or duplicate gemstones remain."
   }
 };
