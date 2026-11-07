@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Golden Fingertips": {
+  "src": "art/golden-fingertips.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A tiefling occult forger inspects matching red wax seal impressions with a stamp, original seal and engraving tools on her desk.",
+  "provenance": "outputs/v76-golden-fingertips/final.png; first Krea rough selected, Muse text/tool cleanup, separate structure and consistency. Five styles .30, high creativity, intensity50, detail0, movement25, seed573860; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "COPY / FORGE: paired wax rosettes and two coherent seal tools, no transmutation. One adult tiefling/two arms; precision grips inspected in enlarged crop, curled hidden digits not claimed visible. Stamp is just lifted for inspection, not pressing. Lettering removed, engraving tray retained. Lower body cropped. Exact proficiency/expertise and downtime crime rules remain text."
+},
   "Gaoler's Tomb": {
   "src": "art/gaolers-tomb.webp",
   "width": 2352,
