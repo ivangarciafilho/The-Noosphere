@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Foul-Mouthed Bully": {
+  "src": "art/foul-mouthed-bully.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A goblin occultist delivers a mocking taunt whose violet sound ripples reach the temple of a shocked human guard.",
+  "provenance": "outputs/v74-foul-mouthed-bully/final.png; first Krea rough selected, Muse speech-source repair, separate structure and consistency. Five styles .30, high creativity, intensity50, detail0, movement30, seed573858; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "TAUNT / DISTRESS: Vicious Mockery branch. Mouth-origin ripples, distinct goblin/human in direct eye contact, no physical hit. Two arms each/four closed fists inspected in crop, natural digit occlusion; two legs each traced to frame crop, feet not fully visible. Forehead-source cue corrected, background figures removed. Initiative1 consequence and alternative Influence choices remain rules text."
+},
   "Flipbook Snapshot": {
   "src": "art/flipbook-snapshot.webp",
   "width": 2352,
