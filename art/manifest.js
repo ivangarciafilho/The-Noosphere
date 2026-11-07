@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Energy Conversion": {
+  "src": "art/energy-conversion.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A ravenfolk tome-warlock dispels violet bindings from a red dragonborn ally as the broken magic becomes a golden protective mantle around her.",
+  "provenance": "outputs/v64-energy-conversion/clean-final.png; Krea rough seed573844, five styles .30, high creativity, intensity50, complexity0, movement30, 2.35:1; Muse head/hand repair, rejected structural binding regression, repair and repeated structure, consistency, signature cleanup. Final21:9.",
+  "reviewNotes": "DISPEL / CONVERT / PROTECT: violet fragments dissolve into golden protection on the same dragonborn. Distinct ravenfolk and dragonborn in mutual gaze, two arms each; three fists and book-support grip inspected in crops, hidden digits not claimed visible. Human mouth under beak corrected; reconnected binding regression rejected; signature removed. Numeric scaling, alternative psychic damage and spell-slot condition remain rules text."
+},
   "Emergency Door": {
   "src": "art/emergency-door.webp",
   "width": 2352,
