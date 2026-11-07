@@ -314,5 +314,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An occultist draws luminous essence from an inert humanoid body into a sealed vessel in a shadowed crypt.",
     "provenance": "outputs/v40-corpse-butchery/corpse-butchery-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads DISMEMBER / HARVEST through one essence stream and one vessel. The imagery stays symbolic and non-graphic, with one occultist, one inert body, correct hands, and no text or duplicate props."
+  },
+  "Corpse Devourers' Cohort": {
+    "src": "art/corpse-devourers-cohort.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A necromancer directs three shadow creatures emerging from one grave toward an inert corpse beneath a moonlit ossuary.",
+    "provenance": "outputs/v41-corpse-devourers-cohort/corpse-devourers-cohort-muse-final.png; one Krea rough accepted after Muse reduced four creatures to three and removed tombstone text; Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads CONSUME / MULTIPLY: one leader commands exactly three creatures from one grave toward one corpse. No pseudo-text, duplicate figures, or anatomy artifacts remain."
   }
 };
