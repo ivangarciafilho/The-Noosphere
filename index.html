@@ -2662,6 +2662,29 @@ h1.title {
   overflow-wrap: break-word;
 }
 </style>
+<style id="ss-css">
+.ss-sig,.ss-sig *{box-sizing:border-box}
+.ss-sig{--ss-base:6rem;--ss-panel:#1a1510;display:grid;gap:3px;margin:0 0 .9rem}
+.ss-panel{position:relative;display:grid;gap:11px;padding:10px 8px;border:1px solid rgba(227,192,112,.18);overflow:hidden;isolation:isolate;background:var(--ss-panel) repeating-linear-gradient(135deg,rgba(227,192,112,.07) 0 4px,transparent 4px 10px)}
+.ss-panel::after{content:"";position:absolute;inset:3px;pointer-events:none;z-index:3;opacity:.55;background:linear-gradient(#e3c070,#e3c070) top left/9px 1px no-repeat,linear-gradient(#e3c070,#e3c070) top left/1px 9px no-repeat,linear-gradient(#e3c070,#e3c070) top right/9px 1px no-repeat,linear-gradient(#e3c070,#e3c070) top right/1px 9px no-repeat,linear-gradient(#e3c070,#e3c070) bottom left/9px 1px no-repeat,linear-gradient(#e3c070,#e3c070) bottom left/1px 9px no-repeat,linear-gradient(#e3c070,#e3c070) bottom right/9px 1px no-repeat,linear-gradient(#e3c070,#e3c070) bottom right/1px 9px no-repeat}
+.ss-base{position:absolute;top:0;bottom:0;left:0;width:calc(var(--ss-base) + 8px);z-index:-1;background:rgba(227,192,112,.04);border-right:1px dashed rgba(227,192,112,.18)}
+.ss-rl{position:absolute;top:0;bottom:0;left:calc(var(--ss-base) + 8px);right:8px;z-index:-1}
+.ss-rl i{position:absolute;top:0;bottom:0;width:1px;background:rgba(227,192,112,.13)}
+.ss-scl{position:relative;height:14px;margin:0 8px 0 calc(var(--ss-base) + 8px)}
+.ss-scl span{position:absolute;top:0;transform:translateX(-50%);font:500 .64rem/14px "JetBrains Mono",ui-monospace,Menlo,monospace;color:#b3a38a;white-space:nowrap}
+.ss-scl span.last{transform:translateX(-100%)}
+.ss-bar{position:relative;height:24px}
+.ss-bar.ss-range::before{content:"";position:absolute;left:0;right:0;top:-6px;border-top:1px dashed rgba(227,192,112,.22)}
+.ss-fill{position:absolute;inset:0 auto 0 0;display:flex;align-items:center;gap:6px;padding:0 8px;overflow:hidden;font:700 .78rem/1 "Alegreya Sans",system-ui,sans-serif;color:#17120b;white-space:nowrap;background-image:linear-gradient(180deg,rgba(255,255,255,.22),rgba(255,255,255,0) 42%,rgba(0,0,0,.14))}
+.ss-fill,.ss-fill b{font-variant:normal;text-transform:none;letter-spacing:0;font-family:"Alegreya Sans",system-ui,sans-serif}
+.ss-fill{min-width:max-content}
+.ss-fill b{font-weight:700;font-size:.78rem;color:#17120b;overflow:hidden;text-overflow:ellipsis}
+.ss-ic{flex:none;width:17px;height:17px;border-radius:50%;display:grid;place-items:center;background:#f4ecd8;color:#111;font:700 .7rem/1 "JetBrains Mono",ui-monospace,monospace;font-variant-emoji:text}
+.ss-cast .ss-fill{background-color:#e3c070}.ss-dur .ss-fill{background-color:#b39ce8}.ss-range .ss-fill{background-color:#7fc9b8}.ss-tgt .ss-fill{background-color:#e39a7f}
+.ss-fr,.ss-gp{position:absolute;pointer-events:none}
+.ss-fr{top:-3px;left:-3px;height:30px;background:linear-gradient(90deg,#f6dc95,#c99a3c 55%,#f2d38a)}
+.ss-gp{top:-1.5px;left:-1.5px;height:27px;background:var(--ss-panel)}
+</style>
 </head><body>
 <div class="ash"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">☰</button>
@@ -7453,13 +7476,52 @@ MagicCircle repo
     return '<svg class="spell-ux-svg" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">'+(p[key]||p.Other)+'</svg>';
   }
   
-  function spellCompact(s){
-    return '<div class="spell-quick spell-instrument" aria-label="Arcane chronometry and spell geometry">'+
-      '<div class="spell-chronometer" role="group" aria-label="Casting speed and duration">'+
-      spellTimeRail('cast',s.ct||'',s)+spellTimeRail('duration',s.dur||'',s)+
-      '</div>'+spellScopeMeters(s)+'</div>';
+  var SS_CAST_POS=[0,0,0,2,3,4,5,6,6],SS_DUR_POS=[0,1,1,2,3,4,5,6,6];
+  var SS_MARKS={time:['1r','1m','10m','1h','8h','24hr'],feet:['30ft','60ft','90ft','120ft','300ft','1mi']};
+  var SS_DUR_TXT=['Instant','1 round','1 round','1 min','10 min','1 hour','8 hours','24 hours','Until dispelled'];
+  function ssFeetPos(f){var p=[[0,0],[30,1],[60,2],[90,3],[120,4],[300,5],[5280,6]];for(var k=1;k<p.length;k++){if(f<=p[k][0]){return p[k-1][1]+(f-p[k-1][0])/(p[k][0]-p[k-1][0])*(p[k][1]-p[k-1][1]);}}return 6;}
+  function ssScale(kind,pos){return '<div class="ss-scl ss-'+pos+'" aria-hidden="true">'+SS_MARKS[kind].map(function(t,j){return '<span'+(j===5?' class="last"':'')+' style="left:'+((j+1)/6*100)+'%">'+t+'</span>';}).join('')+'</div>';}
+  function ssBar(cls,pos,ic,txt,conc,tip,tipT){
+    var p=Math.max(0,Math.min(6,pos)),marks=[];for(var j=1;j<=6;j++)if(j<p-0.02)marks.push(j);
+    return '<div class="ss-bar ss-'+cls+(conc?' ss-conc':'')+'" data-marks="'+marks.join(',')+'" data-tip="'+spellEsc(tip)+'" data-tip-t="'+spellEsc(tipT)+'" data-tip-c="Spell signature">'+(conc?'<span class="ss-fr"></span><span class="ss-gp"></span>':'')+
+      '<span class="ss-fill" style="width:calc(var(--ss-base) + (100% - var(--ss-base)) * '+p+'/6)"><span class="ss-ic" aria-hidden="true">'+ic+'</span><b>'+spellEsc(txt)+'</b></span></div>';
   }
-  
+  function spellSignature(s){
+    var ct=String(s.ct||''),dur=String(s.dur||''),rng=String(s.rng||''),comp=String(s.comp||'');
+    var ctier=spellTimeTier(ct,'cast'),dtier=spellTimeTier(dur,'duration');
+    var cbase=ctier===0?'Reaction':ctier===1?'Bonus Action':ctier===2?'Action':ct.split(',')[0].replace(/^1 /,'1 ').trim();
+    var comps=(comp.split('(')[0].match(/\b[VSM]\b/g)||[]).join(', ');
+    var castConc=ctier>2;
+    var castLabel=cbase+(comps||castConc?' ('+[comps,castConc?'Concentration':''].filter(Boolean).join('; ')+')':'');
+    var conc=/concentration/i.test(dur);
+    var durLabel=conc?'Concentration (up to '+SS_DUR_TXT[dtier]+')':SS_DUR_TXT[dtier];
+    var rl=rng.toLowerCase(),rpos=0,rlab=rng.split('(')[0].trim();
+    var m=rl.match(/^(\d+)\s*(feet|foot|ft|miles?)/);
+    if(m){rpos=ssFeetPos(Number(m[1])*(m[2].charAt(0)==='m'?5280:1));}
+    var am=rng.match(/(\d+)-foot(?:-radius)?\s*(cube|radius|emanation|cone|sphere|line|cylinder)/i),tlab,tpos,tic;
+    if(am){var sh=am[2].charAt(0).toUpperCase()+am[2].slice(1).toLowerCase();tlab=am[1]+'-ft '+sh;tpos=ssFeetPos(Number(am[1]));tic='&#x2B21;';}
+    else{var tp=spellTargetProfile(s);
+      if(tp.num){tlab=tp.num===1?'1 target':tp.num+' targets';tpos=tp.num-1;tic='&#x25CE;';}
+      else if(/^self/.test(rl)){tlab='You';tpos=0;tic='&#x25CF;';}
+      else{tlab='Varies';tpos=0;tic='&#x25CE;';}}
+    var cTip=ct+(comp?' · Components: '+comp:'')+(castConc?' · Casting time longer than an action requires Concentration while casting.':'');
+    var rules='';for(var j=1;j<=6;j++)rules+='<i style="left:'+(j/6*100)+'%"></i>';
+    return '<div class="ss-sig" role="img" aria-label="'+spellEsc('Casting '+castLabel+'; lasts '+durLabel+'; range '+rlab+'; '+tlab)+'">'+ssScale('time','top')+
+      '<div class="ss-panel"><div class="ss-base" aria-hidden="true"></div><div class="ss-rl" aria-hidden="true">'+rules+'</div>'+
+      ssBar('cast',SS_CAST_POS[ctier],'&#x21AF;',castLabel,castConc,cTip,'Casting Time')+
+      ssBar('dur',SS_DUR_POS[dtier],'&#x29D7;',durLabel,conc,dur,'Duration')+
+      ssBar('range',rpos,'&#x2192;',rlab,false,rng,'Range')+
+      ssBar('tgt',tpos,tic,tlab,false,am?'Area: '+am[0]:(tlab==='Varies'?'Targets are defined in the spell effect.':tlab),am?'Area of Effect':'Targets')+
+      '</div>'+ssScale('feet','bot')+'</div>';
+  }
+  function ssChamfer(w,h,xs,o){var d=4,hw=4,c=3+o,W=w+2*o,H=h+2*o,X=xs.map(function(x){return x+o;}),p=[[c,0]];X.forEach(function(x){p.push([x-hw,0],[x,d],[x+hw,0]);});p.push([W-c,0],[W,c],[W,H-c],[W-c,H]);X.slice().reverse().forEach(function(x){p.push([x+hw,H],[x,H-d],[x-hw,H]);});p.push([c,H],[0,H-c],[0,c]);return 'polygon('+p.map(function(q){return q[0].toFixed(1)+'px '+q[1].toFixed(1)+'px';}).join(',')+')';}
+  function ssLayout(root){(root||document).querySelectorAll('.ss-sig .ss-bar').forEach(function(ub){var fill=ub.querySelector('.ss-fill'),w=fill.offsetWidth,h=fill.offsetHeight;if(!w)return;var base=parseFloat(getComputedStyle(ub).getPropertyValue('--ss-base'))*parseFloat(getComputedStyle(document.documentElement).fontSize),track=ub.clientWidth-base;var xs=(ub.dataset.marks||'').split(',').filter(Boolean).map(function(j){return base+track*(+j)/6;}).filter(function(x){return x>8&&x<w-6;});fill.style.clipPath=ssChamfer(w,h,xs,0);var fr=ub.querySelector('.ss-fr'),gp=ub.querySelector('.ss-gp');if(fr){fr.style.width=(w+6)+'px';fr.style.clipPath=ssChamfer(w,h,xs,3);}if(gp){gp.style.width=(w+3)+'px';gp.style.clipPath=ssChamfer(w,h,xs,1.5);}});}
+  (function(){var q=0;function go(){if(q)return;q=requestAnimationFrame(function(){q=0;ssLayout();});}
+    var ro=typeof ResizeObserver!=='undefined'?new ResizeObserver(go):null,seen=new WeakSet();
+    function watch(){document.querySelectorAll('.ss-sig').forEach(function(el){if(!seen.has(el)){seen.add(el);if(ro)ro.observe(el);}});go();}
+    if(typeof MutationObserver!=='undefined')new MutationObserver(function(){watch();}).observe(document.documentElement,{childList:true,subtree:true});
+    window.addEventListener('resize',go);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(go);document.addEventListener('DOMContentLoaded',watch);})();
+  function spellCompact(s){return spellSignature(s);}
   function spellVariantPanel(s,kind){
     var txt=kind==='ritual'?s.ritualEffect:kind==='circle'?(s.circleEffect||s.circle):'';
     var title=kind==='ritual'?'Ritual Casting':'Circle Casting';
