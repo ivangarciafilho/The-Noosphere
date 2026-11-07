@@ -132,7 +132,7 @@ window.NOOSPHERE_CARD_ART = {
     "height": 1600,
     "status": "muse-endpoint",
     "alt": "A kenku archivist touches an unfurled spell scroll as unreadable script becomes a luminous intelligible glyph above it.",
-    "provenance": "outputs/v16-archivists-insight/archivists-insight-muse-final.png; accepted Krea rough, Muse structural repair, Muse consistency prime; Seedream intentionally skipped per shortened-path run.",
-    "reviewNotes": "Muse-only path preserved the scroll-to-translated-glyph narrative, removed spectacles and labels, restored complete feet, and passed the artifact gate. Decorative glyphs are intentionally nonliteral."
+    "provenance": "outputs/v16-archivists-insight/archivists-insight-muse-final.png; targeted Muse anatomy correction after release review; Seedream intentionally skipped per shortened-path run.",
+    "reviewNotes": "Corrected endpoint now shows exactly two arms and two hands with separated clawed digits, complete feet, stable scroll geometry, and the scroll-to-translated-glyph narrative. Decorative glyphs are intentionally nonliteral."
   }
 };
