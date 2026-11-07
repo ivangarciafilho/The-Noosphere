@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Embrace the Raging Baboon": {
+  "src": "art/embrace-the-raging-baboon.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A horned dwarf occultist joyfully leaps across a fractured geometric oath seal, crimson fiendish aura surrounding her richly embroidered violet and black costume.",
+  "provenance": "outputs/v62-embrace-the-raging-baboon/final.png; first Krea rough accepted, Muse Prompt 1 structure and separate Prompt 2 consistency. Five styles 0.30, high creativity, intensity 50, complexity 0, movement 35, seed 573842, 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "BECOME / EMBRACE CHAOS: one adult dwarf occultist with horns, fangs and self-bound fiend aura breaks an ordered seal. No summoned creature, opponent or projectile. One head, two arms, two legs; both fists inspected in enlarged crop, wrapped thumbs and curled fingers partly occluded. No claim to count unseen digits. Costume remains focal. Alignment permanence and exceptions remain rules text."
+},
   "Elemental Emissary": {
   "src": "art/elemental-emissary.webp",
   "width": 2352,
