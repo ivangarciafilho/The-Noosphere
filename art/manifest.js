@@ -90,6 +90,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v47-cursed-deathmatch/cursed-deathmatch-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads CHALLENGE / LOCK: diametrically distinct designs, direct eye contact, and one binding chain make the compelled duel unmistakable. Anatomy and artifact checks pass."
   },
+  "Daring Troublemaker": {
+    "src": "art/daring-troublemaker.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A raven-masked goblin warlock halts incoming arrows with an intimidating raised hand as a red reaction sigil fractures behind it.",
+    "provenance": "outputs/v48-daring-troublemaker/daring-troublemaker-muse-final.png; four Krea rough candidates, first three rejected for duplicate figures or extra hand-like artifacts, fourth accepted; Muse structural repair and consistency prime; movement 25, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads INTERRUPT / INTIMIDATE: one distinct character, a five-finger stop gesture, frozen arrows, and a fractured reaction ring make the mechanic immediately legible. Anatomy and artifact checks pass."
+  },
   "Centenary Research": {
     "src": "art/centenary-research.webp",
     "width": 2048,
