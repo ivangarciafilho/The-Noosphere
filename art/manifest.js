@@ -179,5 +179,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A tiefling warlock masks a single talisman beneath a controlled violet aura at a moonlit crossroads.",
     "provenance": "outputs/v21-auramancer/auramancer-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
     "reviewNotes": "The image reads as DISGUISE / MASK: one pendant changes from an active emblem to a muted blank charm under a controlled aura veil. Anatomy gate passed with one body, two arms, two hands, complete feet and no rival talismans."
+  },
+  "Baffling Cackle": {
+    "src": "art/baffling-cackle.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A laughing satyr warlock bends one knight's spear aside with a silver barb as psychic recoil strikes the missed attacker.",
+    "provenance": "outputs/v22-baffling-cackle/baffling-cackle-muse-final.png; first rough rejected for duplicate attackers, bounded replacement accepted, Muse structural repair and Muse consistency prime; movement 50, landscape 16:9.",
+    "reviewNotes": "One continuous spear, one silver barb, one miss and one restrained psychic rebound establish DERAIL / REBOUND. Two complete adult characters pass the anatomy gate with two arms and two hands each; no duplicate weapons remain."
   }
 };
