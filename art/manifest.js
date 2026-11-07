@@ -341,5 +341,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An exhausted warlock strides through a vertical portal between a haunted ocean and an alien star desert along a luminous cosmic route.",
     "provenance": "outputs/v43-cosmos-explorer/cosmos-explorer-muse-final.png; rough 1 rejected for route lettering, Muse structural repair and Muse consistency prime; movement 45, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads TRAVERSE / MAP: one explorer crosses one portal between two distinct planes along a text-free cosmic route. Anatomy and portal geometry pass the artifact gate."
+  },
+  "Counsellor's Forked Tongue": {
+    "src": "art/counsellors-forked-tongue.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An occult counsellor sends one magical speech stream that forks into warm reassurance and cold coercion before reaching a conflicted listener.",
+    "provenance": "outputs/v44-counsellors-forked-tongue/counsellors-forked-tongue-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads PERSUADE / SPLIT: one speaker, one listener, and exactly two opposed influence branches. Anatomy and artifact checks pass with no text or duplicate figures."
   }
 };
