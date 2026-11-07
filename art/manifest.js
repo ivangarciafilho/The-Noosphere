@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Epitaph": {
+  "src": "art/epitaph.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A wounded but conscious half-elf warlock kneels inside a crimson protective circle drawn by a thin stream of blood from her forearm.",
+  "provenance": "outputs/v66-epitaph/connected.png; first Krea rough selected, Muse reduced splashes and simplified marks, separate structure and consistency, final source-to-circle continuity correction. Five styles .30, high creativity, intensity50, detail0, movement30, seed573846; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "SURVIVE / ENCIRCLE: one living conscious warlock, thin blood source joins complete defensive floor boundary beneath her. Two arms/two legs; both fists inspected in enlarged crops, natural curled-digit occlusion recorded. No corpse, resurrection, opponent, weapon or lettering. Exact 1HP trigger, Reaction, slot cost and recharge remain rules text."
+},
   "Ephemeral Emissary": {
   "src": "art/ephemeral-emissary.webp",
   "width": 2352,
