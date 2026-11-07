@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Fathomless Helmsman": {
+  "src": "art/fathomless-helmsman.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A hobgoblin warlock grips a ship wheel while luminous cyan currents run alongside the hull of the vessel he steers.",
+  "provenance": "outputs/v69-fathomless-helmsman/final2.png; second Krea rough selected, Muse crew/ship/text cleanup, structure, repeated consistency after scene-continuity regression. Five styles .30, high creativity, intensity50, detail0, movement35, seed573850; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "HELM / PROPEL: one helmsman on continuous stern deck of one ship, currents assist outside hull. Two arms/two legs, both handle grips inspected in enlarged crops, curled digits naturally occluded. Rough1 extra hand rejected. Extra ship/crew and rail lettering removed. Split-scene polish rejected. Exact extra20 crew equivalent and spell-slot/duration conditions remain rules text."
+},
   "Explorer's Mapfolio": {
   "src": "art/explorers-mapfolio.webp",
   "width": 2352,
