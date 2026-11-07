@@ -350,5 +350,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An occult counsellor sends one magical speech stream that forks into warm reassurance and cold coercion before reaching a conflicted listener.",
     "provenance": "outputs/v44-counsellors-forked-tongue/counsellors-forked-tongue-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads PERSUADE / SPLIT: one speaker, one listener, and exactly two opposed influence branches. Anatomy and artifact checks pass with no text or duplicate figures."
+  },
+  "Criticist's Eyes": {
+    "src": "art/criticists-eyes.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A pale-blue masked scholar locks eyes with a horned orange-maned warrior while a cyan diagnostic beam exposes the warrior's vulnerabilities.",
+    "provenance": "outputs/v45-criticists-eyes/criticists-eyes-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads INSPECT / EXPOSE: direct eye contact, diametrically distinct character designs, and one diagnostic beam make the interaction explicit. Anatomy and artifact checks pass."
   }
 };
