@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Firefighter's Codex": {
+  "src": "art/firefighters-codex.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A blue dragonborn warlock casts a turquoise tidal wave into burning dock crates, raising steam at the impact.",
+  "provenance": "outputs/v70-firefighters-codex/final.png; first Krea rough selected, Muse reptilian identity and extinguishing repair, separate structure and consistency. Five styles .30, high creativity, intensity50, detail0, movement40, seed573851; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "CAST / EXTINGUISH: Tidal Wave illustrates one selectable spell, not all choices. One blue reptilian dragonborn, two arms/two legs/one tail; book grip and casting fist inspected in enlarged crops, hidden digits not claimed exposed. Human face and pale fingertips corrected. Steam/wet crates at contact, fire farther right. No lettering, extra figure or water creature. Spell-learning mechanics remain rules text."
+},
   "Fathomless Helmsman": {
   "src": "art/fathomless-helmsman.webp",
   "width": 2352,
