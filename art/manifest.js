@@ -125,5 +125,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A slate-blue genasi occultist energizes a single chest jewel, sending one violet-blue spell stream into a brass conduit and its receiving ward.",
     "provenance": "outputs/v15-arcane-jewel/arcane-jewel-muse-final.png; accepted Krea rough with bounded duplicate-jewel repair, Seedream 4, separate Muse structure and consistency passes.",
     "reviewNotes": "Single talisman, single outgoing stream and single receiving ward establish the charge-to-amplification read. Hands, limbs, head and boots pass the artifact gate; a small blue point on the conduit is part of the receiving indicator, not a duplicate jewel."
+  },
+  "Archivist's Insight": {
+    "src": "art/archivists-insight.webp",
+    "width": 1600,
+    "height": 1600,
+    "status": "muse-endpoint",
+    "alt": "A kenku archivist touches an unfurled spell scroll as unreadable script becomes a luminous intelligible glyph above it.",
+    "provenance": "outputs/v16-archivists-insight/archivists-insight-muse-final.png; accepted Krea rough, Muse structural repair, Muse consistency prime; Seedream intentionally skipped per shortened-path run.",
+    "reviewNotes": "Muse-only path preserved the scroll-to-translated-glyph narrative, removed spectacles and labels, restored complete feet, and passed the artifact gate. Decorative glyphs are intentionally nonliteral."
   }
 };
