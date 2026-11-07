@@ -90,6 +90,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v30-centenary-research/centenary-research-muse-final.png; three Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is absorb: a single abstract codex imprint transfers borrowed knowledge into the Book of Shadows. No readable text or duplicate characters."
   },
+  "Charon's Itinerary": {
+    "src": "art/charons-itinerary.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A tiefling ferryman traces a lineage from a Book of Shadows to living, ancestral, and undead silhouettes beside a moonlit river.",
+    "provenance": "outputs/v31-charons-itinerary/charons-itinerary-muse-final.png; two Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is trace/identify: one connected lineage path communicates life, ancestry, death, and undead recognition without readable text or duplicate characters."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
