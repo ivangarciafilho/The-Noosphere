@@ -99,6 +99,15 @@ window.NOOSPHERE_CARD_ART = {
     "provenance": "outputs/v31-charons-itinerary/charons-itinerary-muse-final.png; two Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
     "reviewNotes": "The visual verb is trace/identify: one connected lineage path communicates life, ancestry, death, and undead recognition without readable text or duplicate characters."
   },
+  "Circle of Aristocratic Occultists": {
+    "src": "art/circle-aristocratic-occultists.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "An elegant elf occult tailor refines a jeweled talisman with thread, leather, an awl, and a needle in a lavish salon.",
+    "provenance": "outputs/v32-circle-aristocratic-occultists/circle-aristocratic-occultists-muse-final.png; two Krea landscape rough candidates, selected candidate, Muse structure repair, and Muse consistency/anatomy pass.",
+    "reviewNotes": "The visual verb is refine: tool mastery transforms humble craft into aristocratic occult couture. No text, duplicate figures, or ambiguous magical action."
+  },
   "Disassemble Grimoire's Pages": {
     "src": "art/disassemble-grimoires-pages.webp",
     "width": 1600,
