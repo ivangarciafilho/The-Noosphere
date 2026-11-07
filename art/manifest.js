@@ -170,5 +170,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "An aasimar warlock projects a dominance aura that leaves a charmed noble and frightened ogre unable to react.",
     "provenance": "outputs/v20-aura-of-superiority/aura-of-superiority-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
     "reviewNotes": "The aura boundary, restrained targets and caster gesture establish DOMINATE / SILENCE. Three complete adult characters pass the anatomy gate with two arms and two hands each; one staff is the only hard prop."
+  },
+  "Auramancer": {
+    "src": "art/auramancer.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A tiefling warlock masks a single talisman beneath a controlled violet aura at a moonlit crossroads.",
+    "provenance": "outputs/v21-auramancer/auramancer-muse-final.png; accepted horizontal Krea rough with movement 45, Muse structural repair and Muse consistency prime; Seedream skipped per shortened-path run.",
+    "reviewNotes": "The image reads as DISGUISE / MASK: one pendant changes from an active emblem to a muted blank charm under a controlled aura veil. Anatomy gate passed with one body, two arms, two hands, complete feet and no rival talismans."
   }
 };
