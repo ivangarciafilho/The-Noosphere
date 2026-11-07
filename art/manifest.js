@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Elegant Miniatures": {
+    "src": "art/elegant-miniatures.webp",
+    "width": 2352,
+    "height": 1008,
+    "status": "muse-endpoint",
+    "alt": "A badgerfolk ceramicist observes an ordinary ivory teacup whose faint cat-shaped tabletop shadow hints at a disguised familiar.",
+    "provenance": "outputs/v60-elegant-miniatures/muse-final.png; second rough accepted, Muse repair, separate structure and consistency passes. Five styles 0.30, high creativity, intensity 50, complexity 0, movement 25, seed 573840; 2.35:1 rough and 21:9 Muse.",
+    "reviewNotes": "First rough rejected for visible face, levitation and wings. Final ordinary cup rests on table, flat shadow is hidden-nature illustration only. One figure, two arms, five-digit open hand and occluded tool grip inspected. No extra animal or lettering. Detection mechanics remain rules text. See v60 review.md."
+  },
   "Eldritch Lashes": {
     "src": "art/eldritch-lashes.webp",
     "width": 3168,
