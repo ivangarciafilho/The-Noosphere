@@ -359,5 +359,14 @@ window.NOOSPHERE_CARD_ART = {
     "alt": "A pale-blue masked scholar locks eyes with a horned orange-maned warrior while a cyan diagnostic beam exposes the warrior's vulnerabilities.",
     "provenance": "outputs/v45-criticists-eyes/criticists-eyes-muse-final.png; one Krea rough accepted, Muse structural repair and Muse consistency prime; movement 35, landscape 16:9, complexity 0.",
     "reviewNotes": "The final frame reads INSPECT / EXPOSE: direct eye contact, diametrically distinct character designs, and one diagnostic beam make the interaction explicit. Anatomy and artifact checks pass."
+  },
+  "Cryptic Calligram": {
+    "src": "art/cryptic-calligram.webp",
+    "width": 2048,
+    "height": 1152,
+    "status": "muse-endpoint",
+    "alt": "A warlock calligrapher paints a many-eyed moon and locked doorway whose hidden meaning is carried entirely by visual composition.",
+    "provenance": "outputs/v46-cryptic-calligram/cryptic-calligram-muse-final.png; rough 1 rejected for readable characters, Muse structural repair and Muse consistency prime; movement 30, landscape 16:9, complexity 0.",
+    "reviewNotes": "The final frame reads HIDE / DECODE: one painter, one abstract artwork, and no readable script. Anatomy, artifact, and text-removal checks pass."
   }
 };
