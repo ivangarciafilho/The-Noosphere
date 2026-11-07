@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Flipbook Snapshot": {
+  "src": "art/flipbook-snapshot.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A tabaxi scholar reviews coarse sequential silhouettes of a person jumping past a box in her open Book of Shadows.",
+  "provenance": "outputs/v73-flipbook-snapshot/final.png; third of three Krea roughs selected, Muse text/page cleanup, separate structure and consistency. Five styles .30, high creativity, intensity50, detail0, movement25, seed573857; 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "RECORD / REPLAY: three coarse flat action frames on bound page, one attached turning leaf, one real scholar. First two roughs rejected for extra arm and floating pages. Two arms traced to two book grips; enlarged hand crop inspected, some digits hidden behind cover. No writing, signature or detached paper. Reaction/concentration/recharge and exact recorded duration remain rules text."
+},
   "Flesh-Stitching Artist": {
   "src": "art/flesh-stitching-artist.webp",
   "width": 2352,
