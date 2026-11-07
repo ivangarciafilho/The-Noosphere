@@ -1,5 +1,14 @@
 // Exact invocation names map to external artwork. Add new cards here; do not edit rule text.
 window.NOOSPHERE_CARD_ART = {
+  "Ephemeral Emissary": {
+  "src": "art/ephemeral-emissary.webp",
+  "width": 2352,
+  "height": 1008,
+  "status": "muse-endpoint",
+  "alt": "A richly dressed tortle occultist strides through a misty cemetery cloister beside a small cyan will-o-wisp familiar.",
+  "provenance": "outputs/v65-ephemeral-emissary/final.png; first Krea rough selected, Muse text/wisp/grip repair, separate structure and consistency. Five styles .30, high creativity, intensity50, complexity0, movement30, seed573845, 2.35:1 rough and 21:9 final.",
+  "reviewNotes": "SUMMON / ACCOMPANY: one tortle and one small incorporeal cyan familiar with skull-light core, clear air gap and mutual orientation. Two arms and legs, closed stole grips reviewed in enlarged crops; curled hidden digits not falsely counted as visible. Gravestone pseudo-writing removed, no lantern, tether, attack or duplicate spirit. Arcanum expenditure, HP bonus and duration remain rules text."
+},
   "Energy Conversion": {
   "src": "art/energy-conversion.webp",
   "width": 2352,
